@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "pabs Was here"
+title                    : "Pabs was here"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -135,8 +135,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -233,7 +231,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+   _posts
   - scope:
       path: ""
       type: posts
@@ -244,7 +242,3 @@ defaults:
       comments: # true
       share: true
       related: true
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
